@@ -1,0 +1,54 @@
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Arquivos de dependências
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Configurações locais
+.env
+.local
+secrets.json
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribuições geradas
+/dist/
+/build/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Pasta de mídia e static (geralmente gerada pelo collectstatic)
+/media/
+/staticfiles/
+
+# Logs e caches do Django
+db.sqlite3
+*.db
+
+# Node.js (caso use frontend separado)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Arquivos de teste
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+
+# Outros arquivos específicos
+.DS_Store
+Thumbs.db
